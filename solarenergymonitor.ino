@@ -102,6 +102,7 @@ void calculateDailyEnergy() {
   }
 }
 
+//measure the raw current
 float measureRawCurrent() {
   float sum = 0.0;
   for (int i = 0; i < 1000; i++) {
